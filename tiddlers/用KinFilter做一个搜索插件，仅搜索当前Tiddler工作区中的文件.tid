@@ -1,0 +1,11 @@
+created: 20200810030109852
+creator: 林一二
+modified: 20211226142700641
+modifier: 林一二
+priority: high
+status: not started
+tags: 自改TW 任务
+title: 用KinFilter做一个搜索插件，仅搜索当前Tiddler工作区中的文件
+type: text/vnd.tiddlywiki
+
+比如只搜工作经验标签下的满足关键词的内容。

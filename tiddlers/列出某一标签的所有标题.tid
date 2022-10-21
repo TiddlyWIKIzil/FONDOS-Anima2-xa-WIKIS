@@ -1,0 +1,63 @@
+created: 20200408125619903
+creator: 林一二
+modified: 20220107160146445
+modifier: 林一二
+tags: 自改TW
+title: 列出某一标签的所有标题
+type: text/vnd.tiddlywiki
+
+\define list-tagged-draggable-link(tag,subFilter,emptyMessage,itemTemplate,elementTag:"div",storyview:"")
+\whitespace trim
+  <span class="tc-tagged-draggable-list">
+    <$set name="tag" value=<<__tag__>>>
+      <$list filter="[<__tag__>tagging[]$subFilter$]" emptyMessage=<<__emptyMessage__>> storyview=<<__storyview__>>>
+        <$elementTag$ class="tc-menu-list-item">
+          <$droppable actions="""<$macrocall $name="list-tagged-draggable-drop-actions" tag=<<__tag__>>/>""" enable=<<tv-enable-drag-and-drop>>>
+            <$elementTag$ class="tc-droppable-placeholder"/>
+              <$elementTag$>
+              <$transclude tiddler="""$itemTemplate$""">
+								<$link to={{!!title}}>
+									<$view field="title"/>
+								</$link>
+              </$transclude>
+            </$elementTag$>
+          </$droppable>
+        </$elementTag$>
+      </$list>
+      <$tiddler tiddler="">
+        <$droppable actions="""<$macrocall $name="list-tagged-draggable-drop-actions" tag=<<__tag__>>/>""" enable=<<tv-enable-drag-and-drop>>>
+          <$elementTag$ class="tc-droppable-placeholder"/>
+            <$elementTag$ style="height:0.5em;">
+          </$elementTag$>
+        </$droppable>
+      </$tiddler>
+    </$set>
+  </span>
+\end
+
+\define list-tagged-draggable(tag,subFilter,emptyMessage,itemTemplate,elementTag:"div",storyview:"")
+\whitespace trim
+  <span class="tc-tagged-draggable-list">
+    <$set name="tag" value=<<__tag__>>>
+      <$list filter="[<__tag__>tagging[]$subFilter$]" emptyMessage=<<__emptyMessage__>> storyview=<<__storyview__>>>
+        <$elementTag$ class="tc-menu-list-item">
+          <$droppable actions="""<$macrocall $name="list-tagged-draggable-drop-actions" tag=<<__tag__>>/>""" enable=<<tv-enable-drag-and-drop>>>
+            <$elementTag$ class="tc-droppable-placeholder"/>
+              <$elementTag$>
+              <$transclude tiddler="""$itemTemplate$""">
+								<$view field="title"/>
+              </$transclude>
+            </$elementTag$>
+          </$droppable>
+        </$elementTag$>
+      </$list>
+      <$tiddler tiddler="">
+        <$droppable actions="""<$macrocall $name="list-tagged-draggable-drop-actions" tag=<<__tag__>>/>""" enable=<<tv-enable-drag-and-drop>>>
+          <$elementTag$ class="tc-droppable-placeholder"/>
+            <$elementTag$ style="height:0.5em;">
+          </$elementTag$>
+        </$droppable>
+      </$tiddler>
+    </$set>
+  </span>
+\end

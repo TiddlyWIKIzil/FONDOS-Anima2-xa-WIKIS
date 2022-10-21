@@ -1,0 +1,12 @@
+created: 20200415075543335
+creator: 林一二
+modified: 20211226142700640
+modifier: 林一二
+priority: low
+status: not started
+tags: 自改TW 任务
+title: 用同义词库、搜索更多字段增强搜索
+type: text/vnd.tiddlywiki
+
+比如搜「其它」的时候就搜不到「其他」，这就需要同义词库、词向量了。此外最好还能引入 tf-idf 等索引手段。还有利用字段内容做问答机器人
+还有希望能默认[[搜索其他字段的内容]]。

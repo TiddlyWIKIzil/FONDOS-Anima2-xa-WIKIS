@@ -1,0 +1,11 @@
+created: 20200610134049259
+creator: 林一二
+modified: 20200611071403510
+modifier: 林一二
+tags: 数字集成电路
+title: 寄存器
+type: text/vnd.tiddlywiki
+
+Register 上的 Data_addr 是用于在写入数据时指定一个 register 写入。
+
+最终 Register 的输出会由控制器导向 datamemory，写入 SRAM 中。

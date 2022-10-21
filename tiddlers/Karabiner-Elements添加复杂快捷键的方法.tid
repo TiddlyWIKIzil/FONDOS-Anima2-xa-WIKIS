@@ -1,0 +1,14 @@
+created: 20200417120841046
+creator: 林一二
+keywords: shortcut keybinding
+modified: 20200622154031794
+modifier: 林一二
+responder: 林一二
+tags: solution 自改Mac
+title: Karabiner-Elements添加复杂快捷键的方法
+type: text/vnd.tiddlywiki
+url: https://github.com/pqrs-org/Karabiner-Elements/issues/1225#issuecomment-495471512
+
+打开 `~/.config/karabiner/karabiner.json` 在里面改。
+
+我目前用的是[[karabiner.json]]

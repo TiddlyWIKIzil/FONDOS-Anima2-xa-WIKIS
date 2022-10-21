@@ -1,0 +1,22 @@
+created: 20200412101937214
+creator: 林一二
+modified: 20200625082221764
+modifier: 林一二
+status: complete
+tags: TW运维
+title: 在一个TiddlyWiki里同时放公开内容和隐私内容
+type: text/vnd.tiddlywiki
+
+我希望 TiddlyWiki 能像 Notion 一样，既可以当自己的 Todo 管理工具、人际关系和想法整理器，又可以把一些想法、文章直接公开发布。
+
+这应该要通过 Tiddler 级别的加密来实现，但是直接用密码加密 Tiddler 的简单方案不好用：
+
+<<reuse-tiddler "TW5-EncryptTiddlerPlugin的缺点">>
+
+---
+
+<<reuse-tiddler "$:/plugins/linonetwo/private-tiddlers-in-private-repo/explaination-zh">>
+
+---
+
+<<reuse-tiddler "在一个TiddlyWiki里同时放公开内容和隐私内容/SyncAdaptor方案">>

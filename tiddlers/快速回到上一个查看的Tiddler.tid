@@ -1,0 +1,15 @@
+created: 20200415015430118
+creator: 林一二
+modified: 20211226142700630
+modifier: 林一二
+priority: normal
+status: on-hold
+tags: 自改TW 任务
+title: 快速回到上一个查看的Tiddler
+type: text/vnd.tiddlywiki
+
+在 Firefox 和 VSCode 里，按 `ctrl+tab` 可以回到上一个查看的项目，这在来回对比的情况下很方便。
+
+如果在桌面版 TiddlyWiki 里，我或许也可以实现这个功能。
+
+可以复用 Command Palette 来做切换，毕竟它可以展示最近打开的 Tiddler 列表，而且按一下回车就能打开选中的 Tiddler。

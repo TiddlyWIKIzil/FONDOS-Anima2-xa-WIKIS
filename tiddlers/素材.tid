@@ -1,0 +1,11 @@
+created: 20200409024031366
+creator: 林一二
+modified: 20200409033738318
+modifier: 林一二
+tags: Index
+title: 素材
+type: text/vnd.tiddlywiki
+
+收集的好词好句、段子等等。
+
+<$macrocall $name="locator-view" baseTitle=<<currentTiddler>> />

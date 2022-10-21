@@ -1,0 +1,19 @@
+created: 20200429064553844
+modified: 20200505131547841
+tags: 事件记录
+title: GoogleCalendar
+type: text/vnd.tiddlywiki
+
+我通过 Google Calendar 来记简短的日历，这样碎片化地记录比每晚一次性记日记要清晰、精确。
+
+为方便分析，我[[把GoogleCalendar导入到TiddlyWiki上]]：
+
+<fieldset>
+	<legend>导入日历</legend>
+
+	<$import-google-calendar-event yesterday="yes" label="导入昨日" tags="APrivateContent GoogleCalendar" />
+	<$import-google-calendar-event label="导入今日" tags="APrivateContent GoogleCalendar" />
+	<$import-google-calendar-event label="导入类别标签" categories="yes" tags="APrivateContent GoogleCalendar" />
+</fieldset>
+
+在添加时简单分到几个[[谷歌日历/类型]]里，如果有数据精炼的需求，则以后再关联到其他意义之塔节点上。

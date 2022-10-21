@@ -1,0 +1,10 @@
+created: 20200411155759987
+keywords: startup javascript tiddlywiki
+modified: 20200602133351329
+tags: solution
+title: 启动脚本
+type: text/vnd.tiddlywiki
+
+是在 TiddlyWiki 启动的时候，会执行的脚本。
+
+通过把 JS 代码加上 `$:/tags/RawMarkup` Tag 、并用 `<script type="text/javascript"> </script>` 包裹来实现。

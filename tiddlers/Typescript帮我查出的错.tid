@@ -1,0 +1,38 @@
+created: 20190504080229268
+creator: 林一二
+modified: 20220714034110318
+modifier: 林一二
+tags: 列表整理
+title: Typescript帮我查出的错
+type: text/vnd.tiddlywiki
+
+1. condition will always return 'true'
+
+(property) IModelProps.currentIndexToLookAt: number | null
+This condition will always return 'true' since the types '{ idx3d: number; err3d: null; }' and 'number | null' have no overlap.ts(2367)
+
+```js
+useBlinking(props.notDetectedPoints.filter(id => id !== props.currentIndexToLookAt).map(({ idx3d }) => idx3d), detectedPointObjects, BLINK_FPS, [0xff4d4d, 0xb30000]);
+```
+
+2. This condition will always return true
+
+This condition will always return true since the function is always defined. Did you mean to call it instead?ts(2774)
+
+Props<IValues, unknown>.hasChildren(): boolean
+
+```ts
+if (props.hasChildren) {
+```
+
+3. This condition will always return 'false' since the types 'TEXT_ANIMATION_TYPE | undefined' and 'number' have no overlap.ts(2367)
+
+```ts
+(value.textFlowType === 0 || value.textFlowType === undefined)
+```
+
+改为 `value.textFlowType === TEXT_ANIMATION_TYPE.MARQUEE`，其中 `TEXT_ANIMATION_TYPE.MARQUEE` 为
+
+```ts
+(enum member) TEXT_ANIMATION_TYPE.MARQUEE = "0"
+```

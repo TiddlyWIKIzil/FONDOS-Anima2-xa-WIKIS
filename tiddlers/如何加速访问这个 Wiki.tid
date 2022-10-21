@@ -1,0 +1,11 @@
+created: 20190422095750692
+modified: 20200411145328461
+tags: TW运维
+title: 如何加速访问这个 Wiki
+type: text/vnd.tiddlywiki
+
+由于 TiddlyWiki 是巨大的单页面应用（ >=5M ），而这个 TW 又部署在境外服务 Now.sh 上，所以我在自己的 $$SwitchyOmega^α$$ 内加上了一条：
+
+`Host wildcard`： `*.onetwo.ren`
+
+以便通过高速代理访问这个 Wiki。

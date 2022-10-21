@@ -1,0 +1,12 @@
+color: #fffc79
+created: 20200409023926170
+creator: 林一二
+modified: 20200603083833828
+modifier: 林一二
+tags: Index
+title: 事件记录
+type: text/vnd.tiddlywiki
+
+一些手动记录的日记、梦、debug 经历等等，用程序自动记录的事件请不要加这个 tag。
+
+<$macrocall $name="locator-view" baseTitle=<<currentTiddler>> />

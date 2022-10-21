@@ -1,10 +1,7 @@
 {
   "description": "Basic client-server edition",
   "plugins": [],
-  "themes": [
-        "tiddlywiki/vanilla",
-        "tiddlywiki/snowwhite"
-    ],
+  "themes": [],
   "languages": [],
   "build": {
     "index": [

@@ -1,0 +1,14 @@
+created: 20200429094048697
+modified: 20200514070035964
+tags: 做完的事情
+title: 把GoogleCalendar导入到TiddlyWiki上
+type: text/vnd.tiddlywiki
+
+根据[[官方教程|https://developers.google.com/calendar/quickstart/js]]来。
+
+创建了[[GoogleCalendarAPI_KEY]] 和 [[GoogleCalendarCLIENT_ID]]，以后我要是把这个功能做成插件的话，得把它们变成 Config 里的配置项。
+
+然后到[[console.developers.google.com里的凭据页面里|https://console.developers.google.com/apis/credentials?project=quickstart-1588153157493]]，修改「OAuth 2.0 客户端 ID 」去允许本地 localhost 访问它。它不能通过 127.0.0.1 来访问，至少得是 localhost。而且它还不支持大于 10000 的端口号。这些都会报 `idpiframe_initialization_failed` 这个错。
+
+
+然后我创建了一个[[导入GoogleCalendar的按钮]]。

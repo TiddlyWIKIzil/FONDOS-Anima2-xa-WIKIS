@@ -1,0 +1,21 @@
+caption: {{||Question}}
+created: 20211214060115255
+creator: 林一二
+difficulty: 5
+due: 20220414045707048
+factor: 2.50
+grade: -1
+history: []
+interval: 0
+lapses: 0
+modified: 20220412045707048
+modifier: 林一二
+reps: 1
+retrievability: 1
+review: 20220412045707048
+stability: 2
+tags: 模式识别与机器学习 ?
+title: 最大似然
+type: text/vnd.tiddlywiki
+
+频率学家广泛使用的一个估计是最大似然(maximum likelihood)估计，其中w的值是使[[似然函数]]p(D | w)达到最大值的w值。这对应于选择使观察到的数据集出现概率最大的w的值。在机器学习的文献中，似然函数的负对数被叫做误差函数(error function)。由于负对数是单调递减的函数，最大化似然函数等价于最小化误差函数。

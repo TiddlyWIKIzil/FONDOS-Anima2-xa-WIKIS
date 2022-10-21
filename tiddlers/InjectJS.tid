@@ -1,0 +1,20 @@
+color: #fbc700
+created: 20200411071718881
+creator: 林一二
+modified: 20200805071002757
+modifier: 林一二
+tags: 自改TW
+title: InjectJS
+type: text/vnd.tiddlywiki
+
+我通过 WebCatalog Preload Script 注入的 UserScript。
+
+---
+
+<$list filter="[tag[InjectJS]]">
+
+	`//` <$link><<currentTiddler>> </$link>
+
+	{{!!text}}
+
+</$list>

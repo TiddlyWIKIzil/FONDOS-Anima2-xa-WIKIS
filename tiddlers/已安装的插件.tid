@@ -1,0 +1,41 @@
+created: 20200408084953101
+creator: 林一二
+modified: 20200625082308891
+modifier: 林一二
+tags: tiddlywiki 自改TW
+title: 已安装的插件
+type: text/vnd.tiddlywiki
+
+!! 介绍已安装的插件
+
+<<reuse-tiddler "我制作的插件">>
+
+[[Command Palette|https://github.com/Souk21/TW-commandpalette]] [[按 CMD/CTRL+P 打开 Notion 风格的多功能搜索框，按 CMD/CTRL+Shift+P 打开命令窗口|Command Palette 使用方法]]
+
+[[tw5-locator|https://bimlas.gitlab.io/tw5-locator/]] 根据 Tag 生成分面索引器
+
+[[tw5-kin-filter|https://bimlas.gitlab.io/tw5-kin-filter/]] 在 Tag 网络上搜索。在 TW 上，Tag 是指向另一个 Tiddler 的有向边，所以通过加 Tag 可以构造出有向图来，进而在图上搜索
+
+[[Shiraz|https://kookma.github.io/TW-Shiraz/]] 工具集，包含 DynamicTable 等，可以用于构建 Todo 系统等 Widget。和其他 kookma 写的插件一样，其很多扩展用法和 recipe 需要到其 demo 网站上去抄，例如[[用 DynamicTable 做的 Task Manager|https://kookma.github.io/TW-Shiraz/#demo%2Fdynamic-table%2Ftask-manager]]
+
+[[tiddlymap|http://tiddlymap.org/]] 把笔记作为脑图的节点，是轻量级的 TheBrain 软件
+
+[[TW-Favorites|https://kookma.github.io/TW-Favorites/]] 可以快速把 tiddler 添加到收藏夹里
+
+[[Utility|https://kookma.github.io/TW-Utility/#Utility%20Tutorial]] 一些 Macro 的合集，我可能得把它们加到印章里，不然我可记不住它们
+
+[[Trashbin|https://kookma.github.io/TW-Trashbin/]] 防止误删，算是多一层保险吧，虽然已经有 Git 了，但是在 SoLiD 版里可能用得上
+
+[[Timelines|https://kookma.github.io/TW-Timelines/]] 各种美观的时间轴，适合用来做展示。可惜是纯展示的，不能像 Google Calendar 一样用
+
+[[TW5-extendedit|启用编辑器自动补全]]
+
+<<reuse-tiddler "solution">>
+
+[[SliceTiddler|https://tiddlywiki.com/editions/text-slicer/]] 重构长内容为很多短内容，方便内容复用
+
+!! 已安装的插件市场
+
+原来 TiddlyWiki 还能开分布式的插件市场啊。
+
+[[KookmaPluginLibrary|https://kookma.github.io/TW-Trashbin/#%24%3A%2Fconfig%2FKookmaPluginLibrary]] 里面有回收站、Todoist 等插件，都是他个人开发维护的。
